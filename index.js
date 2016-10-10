@@ -15,5 +15,5 @@ function makeRainbows(string) {
 
 }
   for(var i = 2; i < process.argv.length; i++) {
-    setInterval(makeRainbows, 5000,process.argv[i]);
+    setInterval(makeRainbows, 5000, process.argv[i]);
 }
